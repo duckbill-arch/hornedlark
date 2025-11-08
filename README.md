@@ -2,7 +2,7 @@
 
 eBird rare bird bot for the [Kansas birding discord server](https://discord.gg/hgrCRHxY)
 
-![example discord alert](./example.png)
+![example discord alert](./hornedlark_example.png)
 
 ## Usage
 

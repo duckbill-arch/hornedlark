@@ -1,8 +1,8 @@
 import {
   excludeEasternCounties,
-  nebraskaExclude,
-  sarpyExclude,
-  triCityExclude,
+  kansasExclude,
+  //sarpyExclude,
+  //triCityExclude,
 } from "./exclude";
 
 type RbaConfig = {
@@ -16,7 +16,7 @@ type RbaConfig = {
 
 export const config: RbaConfig[] = [
   {
-    // statewide
+    // statewide review species
     channel: "1417962654571692033",
     regions: ["US-KS"],
     exclude: kansasExclude,
@@ -54,7 +54,7 @@ export const config: RbaConfig[] = [
       "US-KS-197", // Wabaunsee
       "US-KS-201", // Washington
     ],
-    exclude: sarpyExclude,
+    exclude: excludeEeasternCounties,
   },
   {
     // southeast

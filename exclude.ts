@@ -1,4 +1,4 @@
-export const nebraskaExclude = new Set([
+export const kansasExclude = new Set([
   "Acadian Flycatcher",
   "Alder Flycatcher",
   "American Avocet",
@@ -489,7 +489,7 @@ export const excludeEasternCounties = new Set([
   "Yellow-throated Vireo",
 ]);
 
-export const triCityExclude = new Set([
+// export const triCityExclude = new Set([
   "Snow Goose",
   "Ross's Goose",
   "Greater White-fronted Goose",
@@ -666,7 +666,7 @@ export const triCityExclude = new Set([
   "Dickcissel",
 ]);
 
-export const sarpyExclude = new Set([
+// export const sarpyExclude = new Set([
   ...excludeEasternCounties,
   "Prothonotary Warbler",
   "Yellow-throated Warbler",

@@ -1,6 +1,6 @@
-# Meadowlark
+# hornedlark
 
-eBird rare bird bot for the [Nebraska birding discord server](https://discord.gg/HZYfv7fRu6)
+eBird rare bird bot for the [Kansas birding discord server](https://discord.gg/hgrCRHxY)
 
 ![example discord alert](./example.png)
 

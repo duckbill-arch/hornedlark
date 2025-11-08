@@ -25,12 +25,12 @@ export const config: RbaConfig[] = [
     // kansas-city
     channel: "1417691072947294208",
     regions: [
-      "US-KS-045" // Douglas
-      "US-KS-059" // Franklin
-      "US-KS-087" // Jefferson
-      "US-KS-091" // Johnson
-      "US-KS-121" // Miami
-      "US-KS-209" // Wyandotte
+      "US-KS-045", // Douglas
+      "US-KS-059", // Franklin
+      "US-KS-087", // Jefferson
+      "US-KS-091", // Johnson
+      "US-KS-121", // Miami
+      "US-KS-209", // Wyandotte
     ], 
     exclude: excludeEasternCounties,
   },

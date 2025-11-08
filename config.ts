@@ -54,15 +54,28 @@ export const config: RbaConfig[] = [
       "US-KS-197", // Wabaunsee
       "US-KS-201", // Washington
     ],
-    exclude: excludeEeasternCounties,
+    exclude: excludeEasternCounties,
   },
   {
     // southeast
     channel: "1417691914114961408",
     regions: [
-      "US-NE-019", // Buffalo
-
+      "US-KS-001", // Allen
+      "US-KS-003", // Anderson
+      "US-KS-011", // Bourbon
+      "US-KS-019", // Chautauqua
+      "US-KS-021", // Cherokee
+      "US-KS-031", // Coffey
+      "US-KS-037", // Crawford
+      "US-KS-049", // Elk
+      "US-KS-073", // Greenwood
+      "US-KS-099", // Labette
+      "US-KS-107", // Linn
+      "US-KS-125", // Montgomery
+      "US-KS-133", // Neosho
+      "US-KS-205", // Wilson
+      "US-KS-207", // Woodson
     ],
-    exclude: triCityExclude,
+    exclude: excludeEasternCounties,
   },
 ];

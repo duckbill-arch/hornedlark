@@ -16,20 +16,27 @@ type RbaConfig = {
 
 export const config: RbaConfig[] = [
   {
-    // Statewide
-    channel: "1246125443736928407",
-    regions: ["US-NE"],
-    exclude: nebraskaExclude,
+    // statewide
+    channel: "1417962654571692033",
+    regions: ["US-KS"],
+    exclude: kansasExclude,
   },
   {
-    // Lincoln
-    channel: "1353706678498889758",
-    regions: ["US-NE-109"],
+    // kansas-city
+    channel: "1417691072947294208",
+    regions: [
+      "US-KS-045" // Douglas
+      "US-KS-059" // Franklin
+      "US-KS-087" // Jefferson
+      "US-KS-091" // Johnson
+      "US-KS-121" // Miami
+      "US-KS-209" // Wyandotte
+    ], 
     exclude: excludeEasternCounties,
   },
   {
-    // Omaha
-    channel: "1353711880048349204",
+    // northeast
+    channel: "1417691389487087657",
     regions: [
       "US-NE-055", // Douglas
       "US-NE-153", // Sarpy
@@ -38,17 +45,11 @@ export const config: RbaConfig[] = [
     exclude: sarpyExclude,
   },
   {
-    // Tri-city
-    channel: "1425297312770429018",
+    // southeast
+    channel: "1417691914114961408",
     regions: [
       "US-NE-019", // Buffalo
-      "US-NE-079", // Hall
-      "US-NE-001", // Adams
-      "US-NE-099", // Kearney
-      "US-NE-121", // Merrick
-      "US-NE-081", // Hamilton
-      "US-NE-137", // Phelps
-      "US-NE-035", // Clay
+
     ],
     exclude: triCityExclude,
   },

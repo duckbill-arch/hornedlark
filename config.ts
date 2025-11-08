@@ -38,9 +38,21 @@ export const config: RbaConfig[] = [
     // northeast
     channel: "1417691389487087657",
     regions: [
-      "US-NE-055", // Douglas
-      "US-NE-153", // Sarpy
-      "US-NE-177", // Washington
+      "US-KS-005", // Atchison
+      "US-KS-013", // Brown
+      "US-KS-043", // Doniphan
+      "US-KS-061", // Geary
+      "US-KS-085", // Jackson
+      "US-KS-111", // Lyon
+      "US-KS-117", // Marshall
+      "US-KS-127", // Morris
+      "US-KS-131", // Nemaha
+      "US-KS-139", // Osage
+      "US-KS-149", // Pottawatomie
+      "US-KS-161", // Riley
+      "US-KS-177", // Shawnee
+      "US-KS-197", // Wabaunsee
+      "US-KS-201", // Washington
     ],
     exclude: sarpyExclude,
   },

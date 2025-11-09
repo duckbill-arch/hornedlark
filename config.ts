@@ -102,4 +102,29 @@ export const config: RbaConfig[] = [
     ],
     //exclude: excludeEasternCounties,
   },
+  {
+    // northwest
+    channel: "1417692253270573086",
+    regions: [
+      "US-KS-023", // Cheyenne
+      "US-KS-039", // Decatur
+      "US-KS-051", // Ellis
+      "US-KS-063", // Gove
+      "US-KS-065", // Graham
+      "US-KS-071", // Greeley
+      "US-KS-101", // Lane
+      "US-KS-109", // Logan
+      "US-KS-135", // Ness
+      "US-KS-137", // Norton
+      "US-KS-147", // Phillips
+      "US-KS-153", // Rawlins
+      "US-KS-163", // Rooks
+      "US-KS-165", // Rush
+      "US-KS-171", // Scott
+      "US-KS-179", // Sheridan
+      "US-KS-181", // Sherman
+      "US-KS-193", // Thomas
+      "US-KS-195", // Trego
+      "US-KS-199", // Wallace
+      "US-KS-203", // Wichita
 ];

@@ -54,7 +54,7 @@ export const config: RbaConfig[] = [
       "US-KS-197", // Wabaunsee
       "US-KS-201", // Washington
     ],
-    exclude: excludeEasternCounties,
+    //exclude: excludeEasternCounties,
   },
   {
     // southeast
@@ -76,6 +76,30 @@ export const config: RbaConfig[] = [
       "US-KS-205", // Wilson
       "US-KS-207", // Woodson
     ],
-    exclude: excludeEasternCounties,
+    //exclude: excludeEasternCounties,
+  },
+  {
+    // southwest
+    channel: "1417692103676395520",
+    regions: [
+      "", // Clark
+      "", // Comanche
+      "", // Edwards
+      "", // Finney
+      "", // Ford
+      "", // Grant
+      "", // Gray
+      "", // Hamilton
+      "", // Haskell
+      "", // Hodgeman
+      "", // Kearny
+      "", // Kiowa
+      "", // Meade
+      "", // Pawnee
+      "", // Seward
+      "", // Stanton
+      "", // Stevens
+    ],
+    //exclude: excludeEasternCounties,
   },
 ];

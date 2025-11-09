@@ -138,4 +138,10 @@ export const config: RbaConfig[] = [
     ],
     // exclude: ??,
   },
+  {
+    // morton-county
+    channel: "1417689848432689223",
+    regions: ["US-KS-129"],
+    // exclude: ??,
+  },
 ];

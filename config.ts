@@ -127,4 +127,5 @@ export const config: RbaConfig[] = [
       "US-KS-195", // Trego
       "US-KS-199", // Wallace
       "US-KS-203", // Wichita
+      },
 ];

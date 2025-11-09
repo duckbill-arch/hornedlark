@@ -82,23 +82,23 @@ export const config: RbaConfig[] = [
     // southwest
     channel: "1417692103676395520",
     regions: [
-      "", // Clark
-      "", // Comanche
-      "", // Edwards
-      "", // Finney
-      "", // Ford
-      "", // Grant
-      "", // Gray
-      "", // Hamilton
-      "", // Haskell
-      "", // Hodgeman
-      "", // Kearny
-      "", // Kiowa
-      "", // Meade
-      "", // Pawnee
-      "", // Seward
-      "", // Stanton
-      "", // Stevens
+      "US-KS-025", // Clark
+      "US-KS-033", // Comanche
+      "US-KS-047", // Edwards
+      "US-KS-055", // Finney
+      "US-KS-057", // Ford
+      "US-KS-067", // Grant
+      "US-KS-069", // Gray
+      "US-KS-075", // Hamilton
+      "US-KS-081", // Haskell
+      "US-KS-083", // Hodgeman
+      "US-KS-093", // Kearny
+      "US-KS-097", // Kiowa
+      "US-KS-119", // Meade
+      "US-KS-145", // Pawnee
+      "US-KS-175", // Seward
+      "US-KS-187", // Stanton
+      "US-KS-189", // Stevens
     ],
     //exclude: excludeEasternCounties,
   },

@@ -100,7 +100,7 @@ export const config: RbaConfig[] = [
       "US-KS-187", // Stanton
       "US-KS-189", // Stevens
     ],
-    //exclude: excludeEasternCounties,
+    //exclude: ??,
   },
   {
     // northwest
@@ -128,5 +128,14 @@ export const config: RbaConfig[] = [
       "US-KS-199", // Wallace
       "US-KS-203", // Wichita
     ],
-   },
+  },
+  {
+    // cheyennebottoms&quivira
+    channel: "1417694080548474891",
+    regions: [
+      "US-KS-185", // Stafford
+      "US-KS-009", // Barton
+    ],
+    // exclude: ??,
+  },
 ];

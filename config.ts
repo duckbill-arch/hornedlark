@@ -17,9 +17,9 @@ type RbaConfig = {
 export const config: RbaConfig[] = [
   {
     // statewide review species
-    channel: "1417962654571692033",
-    regions: ["US-KS"],
-    exclude: kansasExclude,
+    //channel: "1417962654571692033",
+    //regions: ["US-KS"],
+    //exclude: ??,
   },
   {
     // kansas-city
@@ -32,7 +32,7 @@ export const config: RbaConfig[] = [
       "US-KS-121", // Miami
       "US-KS-209", // Wyandotte
     ], 
-    exclude: excludeEasternCounties,
+    //exclude: ??,
   },
   {
     // northeast
@@ -54,7 +54,7 @@ export const config: RbaConfig[] = [
       "US-KS-197", // Wabaunsee
       "US-KS-201", // Washington
     ],
-    //exclude: excludeEasternCounties,
+    //exclude: ??,
   },
   {
     // southeast
@@ -76,7 +76,7 @@ export const config: RbaConfig[] = [
       "US-KS-205", // Wilson
       "US-KS-207", // Woodson
     ],
-    //exclude: excludeEasternCounties,
+    //exclude: ??,
   },
   {
     // southwest
@@ -136,12 +136,32 @@ export const config: RbaConfig[] = [
       "US-KS-185", // Stafford
       "US-KS-009", // Barton
     ],
-    // exclude: ??,
+    //exclude: ??,
   },
   {
     // morton-county
     channel: "1417689848432689223",
     regions: ["US-KS-129"],
-    // exclude: ??,
+    //exclude: ??,
   },
+  {
+    // southcentral
+    channel: "1417690570310025237",
+    regions: [
+      "US-KS-007", // Barber
+      "US-KS-015", // Butler
+      "US-KS-017", // Chase
+      "US-KS-035", // Cowley
+      "US-KS-077", // Harper
+      "US-KS-079", // Harvey
+      "US-KS-095", // Kingman
+      "US-KS-115", // Marion
+      "US-KS-113", // McPherson
+      "US-KS-151", // Pratt
+      "US-KS-155", // Reno
+      "US-KS-159", // Rice
+      "US-KS-173", // Sedgwick
+      "US-KS-191", // Sumner
+    ],
+    //exclude: ??,
 ];

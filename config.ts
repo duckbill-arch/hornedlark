@@ -17,9 +17,9 @@ type RbaConfig = {
 export const config: RbaConfig[] = [
   {
     // statewide review species
-    //channel: "1417962654571692033",
-    //regions: ["US-KS"],
-    //exclude: ??,
+    channel: "1417962654571692033",
+    regions: ["US-KS"],
+    exclude: kansasExclude,
   },
   {
     // kansas-city
@@ -165,4 +165,14 @@ export const config: RbaConfig[] = [
     ],
     //exclude: ??,
   },
+  {
+    // northcentral
+    channel: "1417694310379294792",
+    regions: [
+      "US-KS-027", // Clay
+      "US-KS-029", // Cloud
+      "US-KS-041", // Dickinson
+      "US-KS-053", // Ellsworth
+      "US-KS-089", // Jewell
+      "US-KS-105", // Lincoln
 ];

@@ -164,4 +164,5 @@ export const config: RbaConfig[] = [
       "US-KS-191", // Sumner
     ],
     //exclude: ??,
+  },
 ];
